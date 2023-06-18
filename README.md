@@ -53,6 +53,20 @@ The dependencies in used for this project:
 **_Note :_** I create 2 of this springboot project as : MessageSender and MessageReceiver
 :::
 
+:::warning
+Before Getting started, make sure you have the kafka server up and running.
+If not, then you can go the our repository to grab the `docker-compose.yaml`
+file and then run the following command:
+
+```bash!
+docker compose up -d
+```
+
+After that take a look at the `kafka_command.md` and execute the create topic command to create the Kafka topic.
+
+[Project Repository](#Demo1)
+:::
+
 ## First we are going to build the message sender service
 
 ### Configuration in application.yaml
@@ -196,6 +210,8 @@ This is what I get in my MessageReceiver service
 :::success
 Okay, so after all of this you get the idea of what Apache Kafka can do and how to implement it. Goodluck with your Kafka project 😁
 :::
+
+Project Repository: https://github.com/metaphorlism/springboot-kafka
 
 ## Contact Us
 
